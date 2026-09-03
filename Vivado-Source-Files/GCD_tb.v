@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module GCD_testbench ();
+module GCD_tb();
     reg clk=0,start=0,rst=0;
     always#5 clk=~clk;  // Create clock with period=10
     always#10 start=~start; // no matter how often start is pressed, state disables new inputs
